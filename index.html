@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenify - Interactive Environmental Education</title>
+    <link
+      rel="icon"
+      href="images/logo-modified-removebg-preview.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="light">
+    <header>
+      <nav class="container">
+        <div class="nav-left">
+          <img
+            src="images/logo-modified-removebg-preview.png"
+            class="logo"
+            alt="Greenify Logo"
+            height="40"
+            width="40"
+          />
+          <span class="brand-name">Greenify</span>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="help3.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+          <a href="signin.html" class="btn btn-secondary">Sign In</a>
+          <a href="homepage.html" class="btn btn-primary">Get Started</a>
+          <i id="theme-toggle" class="fas fa-moon theme-toggle"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="subtitle">Environmental Education Platform</span>
+            <h1>Learn About Our Planet Through Interactive Education</h1>
+            <p>
+              Greenify is a gamified learning platform designed to make
+              environmental education engaging, interactive, and impactful for
+              students everywhere.
+            </p>
+            <div class="hero-buttons">
+              <a href="homepage.html" class="btn btn-primary"
+                >Explore Now <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+            <ul class="hero-features-list">
+              <li><i class="fas fa-check-circle"></i> Interactive Modules</li>
+              <li><i class="fas fa-check-circle"></i> Gamified Learning</li>
+              <li><i class="fas fa-check-circle"></i> Community Driven</li>
+            </ul>
+          </div>
+          <div class="hero-image">
+            <img
+              src="images/index_photo_cover-removebg-preview.png"
+              alt="Two women and a child learning together with plants"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Info Sections -->
+      <section class="container">
+        <div class="info-section">
+          <div class="info-text">
+            <h2>What is Greenify? 🤔</h2>
+            <p>
+              Greenify is a digital platform that transforms environmental
+              education into a fun and interactive journey. Through gamification
+              and engaging content, learners understand real-world environmental
+              issues while enjoying the process.
+            </p>
+          </div>
+          <img src="images/what is greenify.png" alt="Greenify concept image" />
+        </div>
+
+        <div class="info-section">
+          <div class="info-text">
+            <h2>What is the Purpose of Greenify? 🎯</h2>
+            <p>
+              Our purpose is to create eco-conscious citizens by empowering
+              young learners with the knowledge and tools they need to make
+              sustainable choices. Together, we aim to drive positive
+              environmental impact globally.
+            </p>
+          </div>
+          <img src="images/purpose png.png" alt="Purpose illustration" />
+        </div>
+
+        <div class="info-section">
+          <div class="info-text">
+            <h2>Why Choose Greenify? ✅</h2>
+            <p>
+              Because learning about the environment should never feel boring.
+              Greenify combines fun, facts, and real-world challenges, making it
+              the perfect platform for schools, students, and eco-enthusiasts.
+            </p>
+          </div>
+          <img src="images/why greenify png.png" alt="Why choose Greenify" />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="subtitle">Platform Features</span>
+            <h2>What Makes Greenify Special?</h2>
+            <p>
+              Our platform combines gamification, community engagement, and
+              expert-curated content to create an unparalleled environmental
+              education experience.
+            </p>
+          </div>
+          <div class="features-content">
+            <div class="features-grid">
+              <div class="feature-card">
+                <i class="fas fa-book-open feature-icon"></i>
+                <h3>Learning Modules</h3>
+                <p>
+                  Dive deep into specific environmental topics with interactive
+                  lessons.
+                </p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-puzzle-piece feature-icon"></i>
+                <h3>Fun Quizzes</h3>
+                <p>
+                  Test your knowledge and earn badges, reinforcing key concepts.
+                </p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-gamepad feature-icon"></i>
+                <h3>Engaging Games</h3>
+                <p>Learn complex concepts through interactive games.</p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-users feature-icon"></i>
+                <h3>Thriving Community</h3>
+                <p>Join forums and participate in group challenges.</p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-newspaper feature-icon"></i>
+                <h3>Latest News</h3>
+                <p>Stay updated with positive environmental news.</p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-lightbulb feature-icon"></i>
+                <h3>Fun Facts</h3>
+                <p>Get your daily dose of amazing and shareable facts.</p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-lightbulb feature-icon"></i>
+                <h3>Fun Activities</h3>
+                <p>Get your daily dose of amazing and shareable facts.</p>
+              </div>
+              <div class="feature-card">
+                <i class="fas fa-rocket feature-icon"></i>
+                <h3>Challenges</h3>
+                <p>Get your daily dose of amazing and shareable facts.</p>
+              </div>
+            </div>
+            <div class="features-icon-display">
+              <!-- <img
+                src="images/greenify future.png"
+                alt="Grid of green educational icons"
+                height="auto"
+                width="300"
+              /> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Emotional Donation CTA Section -->
+<section class="cta-section">
+  <div class="container cta-content">
+    <span class="subtitle">Make a Real Impact 🌱</span>
+    <h2>Help Us Protect Our Planet</h2>
+    <p class="donation-text">
+      Every small contribution brings us closer to a greener, healthier Earth. 
+      Your donation empowers students to learn about sustainability, plant trees, 
+      and take meaningful action to preserve the environment for future generations.
+    </p>
+    <div class="cta-buttons">
+      <a href="#" class="btn btn-primary">Donate 💚</a>
+    </div>
+  </div>
+</section>
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>🌿 Greenify</h3>
+          <p>
+            An educational platform to inspire students to adopt sustainable,
+            eco-friendly practices and make the world greener, one step at a
+            time.
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="about.html">📖 About</a></li>
+            <li><a href="help3.html">🧑‍💻 Help and Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h3>Contact</h3>
+          <p>📧 greenifyindia01@gmail.com</p>
+          <p>📍 Ahmedabad, India</p>
+        </div>
+
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+  <div class="social-media">
+          <div class="social-icons">
+            <a href="https://www.instagram.com/greenifyindia01/">
+              <span><i class="fa-brands fa-instagram"></i></span>
+            </a>
+          </div>
+          <div class="social-icons">
+            <a href="#">
+              <span><i class="fa-brands fa-linkedin"></i></span>
+            </a>
+          </div>
+          <div class="social-icons">
+            <a href="#">
+              <span><i class="fa-brands fa-github"></i></span>
+            </a>
+        </div>
+<!--          <div class="social-icons">
+            <a href="#">
+              <span><i class="fa-brands fa-x-twitter"></i></span>
+            </a>
+        </div> -->
+        </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 Greenify | Designed with 💚 for the Environment
+      </div>
+    </footer>
+
+    <!-- Theme Toggle Script -->
+    <script>
+      const toggleBtn = document.getElementById("theme-toggle");
+      const body = document.body;
+
+      toggleBtn.addEventListener("click", () => {
+        body.classList.toggle("dark");
+        body.classList.toggle("light");
+
+        if (body.classList.contains("dark")) {
+          toggleBtn.classList.remove("fa-moon");
+          toggleBtn.classList.add("fa-sun");
+        } else {
+          toggleBtn.classList.remove("fa-sun");
+          toggleBtn.classList.add("fa-moon");
+        }
+      });
+    </script>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+      const navButtons = document.querySelector(".nav-buttons");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+        navButtons.classList.toggle("show");
+        hamburger.innerHTML = navLinks.classList.contains("show")
+          ? '<i class="fas fa-times"></i>'
+          : '<i class="fas fa-bars"></i>';
+      });
+    </script>
+    
+    <!-- CHATBOT -->
+<div id="chatbot-container" class="chatbot-container">
+  <div class="chatbot-header">
+    <div class="header-content">
+      <h3>🌍Eco-Chat AI</h3>
+      <p class="header-subtitle">Environmental Expert</p>
+    </div>
+    <button id="close-chatbot" class="close-btn" aria-label="Close chatbot">✕</button>
+  </div>
+  
+  <div id="messages-container" class="messages-container">
+    <div class="message bot-message">
+      <div class="message-bubble">
+        <p>Hi! I'm your AI environmental assistant Made by Greenify. Ask me anything about climate, recycling, renewable energy, or sustainability! 🌱</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chatbot-input">
+    <input 
+      type="text" 
+      id="user-input" 
+      placeholder="Ask about the environment..." 
+      class="input-field"
+      aria-label="Message input"
+    />
+    <button id="send-btn" class="send-btn" aria-label="Send message">
+      <span class="send-icon">➤</span>
+    </button>
+  </div>
+</div>
+
+<!-- FLOATING TOGGLE BUTTON -->
+<button id="chatbot-toggle" class="chatbot-toggle" aria-label="Open chatbot">
+  <span class="leaf-icon">🌿</span>
+</button>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  /* TOGGLE BUTTON */
+  .chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border: none;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
+    z-index: 999;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chatbot-toggle:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 30px rgba(16, 185, 129, 0.6);
+  }
+
+  .chatbot-toggle:active {
+    transform: scale(0.95);
+  }
+
+  /* CONTAINER */
+  .chatbot-container {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 420px;
+    height: 600px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    display: none;
+    overflow: hidden;
+    animation: slideUp 0.3s ease;
+    top: auto;
+    max-height: calc(100vh - 120px);
+  }
+
+  .chatbot-container.active {
+    display: flex;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* HEADER */
+  .chatbot-header {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    gap: 12px;
+  }
+
+  .header-content {
+    flex: 1;
+  }
+
+  .header-content h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .header-subtitle {
+    margin: 4px 0 0 0;
+    font-size: 11px;
+    opacity: 0.9;
+    line-height: 1.2;
+  }
+
+  /* CLOSE BUTTON */
+  .close-btn {
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    color: white;
+    font-size: 28px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .close-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: rotate(90deg);
+  }
+
+  .close-btn:active {
+    transform: scale(0.9) rotate(90deg);
+  }
+
+  /* MESSAGES CONTAINER */
+  .messages-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f9fafb 0%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .messages-container::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .messages-container::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+
+  .messages-container::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 3px;
+  }
+
+  /* MESSAGES */
+  .message {
+    display: flex;
+    animation: messageSlide 0.3s ease;
+  }
+
+  @keyframes messageSlide {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .bot-message {
+    justify-content: flex-start;
+  }
+
+  .user-message {
+    justify-content: flex-end;
+  }
+
+  .message-bubble {
+    max-width: 80%;
+  }
+
+  .message p {
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+
+  .bot-message p {
+    background: #e5e7eb;
+    color: #1f2937;
+    border-radius: 12px 12px 12px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .user-message p {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border-radius: 12px 12px 4px 12px;
+    box-shadow: 0 1px 2px rgba(16, 185, 129, 0.2);
+  }
+
+  /* LOADING */
+  .loading {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 8px 12px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: bounce 1.4s infinite;
+  }
+
+  .dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes bounce {
+    0%, 80%, 100% {
+      opacity: 0.4;
+      transform: translateY(0);
+    }
+    40% {
+      opacity: 1;
+      transform: translateY(-8px);
+    }
+  }
+
+  /* INPUT AREA */
+  .chatbot-input {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    border-top: 1px solid #e5e7eb;
+    background: white;
+    flex-shrink: 0;
+  }
+
+  .input-field {
+    flex: 1;
+    border: 1.5px solid #d1d5db;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+    font-family: inherit;
+  }
+
+  .input-field:focus {
+    border-color: #10b981;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+  }
+
+  .input-field::placeholder {
+    color: #9ca3af;
+  }
+
+  /* SEND BUTTON */
+  .send-btn {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .send-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+  }
+
+  .send-btn:active {
+    transform: translateY(0);
+  }
+
+  .send-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* MOBILE RESPONSIVE */
+  @media (max-width: 768px) {
+    .chatbot-container {
+      width: 100%;
+      height: 100vh;
+      bottom: 0;
+      right: 0;
+      border-radius: 16px 16px 0 0;
+      max-height: 100vh;
+    }
+
+    .chatbot-toggle {
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+    }
+
+    .chatbot-header {
+      padding: 16px;
+    }
+
+    .chatbot-header h3 {
+      font-size: 18px;
+    }
+
+    .messages-container {
+      padding: 16px;
+    }
+
+    .message p {
+      font-size: 13px;
+      padding: 10px 14px;
+    }
+
+    .input-field {
+      font-size: 16px;
+      padding: 11px 12px;
+    }
+
+    .send-btn {
+      width: 44px;
+      height: 44px;
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .chatbot-container {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .chatbot-toggle {
+      width: 56px;
+      height: 56px;
+      font-size: 24px;
+      bottom: 16px;
+      right: 16px;
+    }
+
+    .chatbot-header {
+      padding: 14px;
+    }
+
+    .chatbot-header h3 {
+      font-size: 16px;
+    }
+
+    .header-subtitle {
+      font-size: 11px;
+    }
+
+    .messages-container {
+      padding: 12px;
+      gap: 10px;
+    }
+
+    .message-bubble {
+      max-width: 85%;
+    }
+
+    .message p {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+
+    .close-btn {
+      width: 36px;
+      height: 36px;
+      font-size: 20px;
+    }
+
+    .input-field {
+      font-size: 16px;
+      padding: 10px 12px;
+    }
+
+    .send-btn {
+      width: 42px;
+      height: 42px;
+      font-size: 16px;
+    }
+  }
+</style>
+
+<script>
+  const BACKEND_URL = '/api';
+  const DOM = {
+    toggle: document.getElementById("chatbot-toggle"),
+    container: document.getElementById("chatbot-container"),
+    closeBtn: document.getElementById("close-chatbot"),
+    messagesContainer: document.getElementById("messages-container"),
+    userInput: document.getElementById("user-input"),
+    sendBtn: document.getElementById("send-btn"),
+  };
+
+  let conversationHistory = [];
+
+  DOM.toggle.addEventListener("click", () => {
+    DOM.container.classList.toggle("active");
+    if (DOM.container.classList.contains("active")) {
+      DOM.userInput.focus();
+    }
+  });
+
+  DOM.closeBtn.addEventListener("click", () => {
+    DOM.container.classList.remove("active");
+  });
+
+  DOM.sendBtn.addEventListener("click", sendMessage);
+  DOM.userInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+
+  async function sendMessage() {
+    const message = DOM.userInput.value.trim();
+    if (!message) return;
+
+    DOM.sendBtn.disabled = true;
+    addMessageToUI(message, "user");
+    DOM.userInput.value = "";
+    showLoading();
+
+    try {
+      const response = await fetch(`${BACKEND_URL}/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: message,
+          conversationHistory: conversationHistory
+        })
+      });
+
+      const data = await response.json();
+      removeLoading();
+      addMessageToUI(data.response, "bot");
+      conversationHistory.push({ role: "user", content: message });
+      conversationHistory.push({ role: "assistant", content: data.response });
+
+    } catch (error) {
+      removeLoading();
+      addMessageToUI("⚠️ Error: " + error.message, "bot");
+    } finally {
+      DOM.sendBtn.disabled = false;
+    }
+  }
+
+  function addMessageToUI(message, sender) {
+    const messageDiv = document.createElement("div");
+    messageDiv.className = `message ${sender}-message`;
+    
+    const bubble = document.createElement("div");
+    bubble.className = "message-bubble";
+    
+    const p = document.createElement("p");
+    p.textContent = message;
+    
+    bubble.appendChild(p);
+    messageDiv.appendChild(bubble);
+    DOM.messagesContainer.appendChild(messageDiv);
+    DOM.messagesContainer.scrollTop = DOM.messagesContainer.scrollHeight;
+  }
+
+  function showLoading() {
+    const messageDiv = document.createElement("div");
+    messageDiv.className = "message bot-message";
+    messageDiv.id = "loading-message";
+    
+    const bubble = document.createElement("div");
+    bubble.className = "message-bubble";
+    
+    const loading = document.createElement("div");
+    loading.className = "loading";
+    loading.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+    
+    bubble.appendChild(loading);
+    messageDiv.appendChild(bubble);
+    DOM.messagesContainer.appendChild(messageDiv);
+    DOM.messagesContainer.scrollTop = DOM.messagesContainer.scrollHeight;
+  }
+
+  function removeLoading() {
+    const msg = document.getElementById("loading-message");
+    if (msg) msg.remove();
+  }
+</script>
+  </body>
+</html>
+
+
+
+
